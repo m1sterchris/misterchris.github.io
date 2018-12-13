@@ -1,0 +1,48 @@
+body {
+	background-image: url(header.jpg);
+	background-position: 0% 0%;
+
+}
+
+p, header {
+	color: white;
+	font-family: 'VT323', monospace;
+	font-size: 3em;
+	text-align: center;
+	
+ }
+
+.button {
+
+	display: inline-block;
+    position: absolute;
+    border: 2px solid rgba(59, 59, 59, .2);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 200px;
+    height: 75px;
+    margin: auto;
+    background-color: rgba(93, 93, 93, .2); 
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 	text-align: center;
+
+}
+
+.button:hover {
+	transform: scale(1.1);
+}
+
+label  {
+	color: white;
+	font-family: 'VT323', monospace;
+	font-size: 2em;
+}
+
+.form-check-label {
+	color: white;
+	font-family: 'VT323', monospace;
+	font-size: 20px;
+	padding-bottom: 15px;
+}
